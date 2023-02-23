@@ -11,6 +11,29 @@ var empList = [
     {id: 6, name: "Csoma Ferenc", city: "Nagykáta", salary: 395 }    
 ];
 
-empList.forEach((emp) => {
-    console.log(emp.name);
-});
+
+function createTable(){
+    empList.forEach((emp) => {
+        // console.log(emp.name); -- debug miatt...
+                
+        let tr = document.createElement("tr");
+        let tdId = document.createElement("td");
+        let tdName = document.createElement("td");
+        let tdCity = document.createElement("td");
+        let tdSalary = document.createElement("td");
+
+        tdId.textContent = emp.id;
+        tdName.textContent = emp.name;
+        tdCity.textContent = emp.city;
+        tdSalary.textContent = emp.salary;
+
+        tbody.append(tr);
+        tr.append(tdId);
+        tr.append(tdName);
+        tr.append(tdCity);
+        tr.append(tdSalary);
+
+    });    
+}; 
+
+createTable();
