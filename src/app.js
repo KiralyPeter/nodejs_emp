@@ -1,3 +1,13 @@
+/*
+* File: style.css
+* Author: Király Péter
+* Copyright: 2023, Király Péter
+* Group: Szoft-1-2-E
+* Date: 2023-02-23
+* Github: https://github.com/janos/
+* Licenc: GNU GPL
+*/
+
 
 const tbody = document.querySelector("#tbody"); // összekötés az index-ben lévő táblával
 
