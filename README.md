@@ -1,1 +1,3 @@
-# Sablon projekt NodeJS-hez
+# Dolgozók nyilvántartása, gyakorlás
+
+
