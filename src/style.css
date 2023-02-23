@@ -4,7 +4,7 @@
 * Copyright: 2023, Király Péter
 * Group: Szoft-1-2-E
 * Date: 2023-02-23
-* Github: https://github.com/janos/
+* Github: https://github.com/KiralyPeter/nodejs_emp.git
 * Licenc: GNU GPL
 */
 
