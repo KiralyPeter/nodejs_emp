@@ -21,18 +21,29 @@
 </head>
 <body>
     
+    <!-- Az egészet egy konténerbe rakjuk -->
     <div class="container">
+        
+        <!-- A konténerben van egy H1 header -->
         <h1>Dolgozók listája</h1>
 
+        <!-- A konténerben van egy tábla, a táblának van bootstarp stílusa -->
         <table class="table table-striped">
+
+            <!-- A táblának van egy header blokkja -->
             <thead>
+
+                <!-- A header blokkban van egy táblázat sor -->
                 <tr>
+                    <!-- A táblázat sornak vannak header mezői -->
                     <th>Azonosító</th>
                     <th>Név</th>
                     <th>Település</th>
                     <th>Fizetés</th>
                 </tr>
             </thead>
+
+            <!-- A táblának van egy body blokkjam tbody ID-val. A tartalmás JS-ből töltjük (app.js) -->
             <tbody id = "tbody"></tbody>
         </table>
 
